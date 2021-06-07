@@ -1,4 +1,4 @@
-package project.ifood.ifoodclone.model;
+package project.ifood.ifoodclone.models;
 
 import java.io.Serializable;
 
@@ -27,6 +27,8 @@ public class User implements Serializable{
         this.phone = phone;
         this.password = password;
     }
+
+    public User(){}
 
     public Long getId() {
         return id;
