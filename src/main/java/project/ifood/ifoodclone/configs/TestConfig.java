@@ -12,6 +12,7 @@ import project.ifood.ifoodclone.enums.OrderStatus;
 import project.ifood.ifoodclone.models.Category;
 import project.ifood.ifoodclone.models.Order;
 import project.ifood.ifoodclone.models.OrderItem;
+import project.ifood.ifoodclone.models.Payment;
 import project.ifood.ifoodclone.models.Product;
 import project.ifood.ifoodclone.models.User;
 import project.ifood.ifoodclone.repository.CategoryRepository;
@@ -79,5 +80,9 @@ public class TestConfig implements CommandLineRunner {
         OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
 
         orderItemRepository.saveAll(Arrays.asList(oi1, oi2, oi3, oi4));
+
+        Payment payment = new Payment(null, Instant.parse("2019-06-20T22:53:07Z"), o1);
+        o1.setPayment(payment);
+        orderRepository.save(o1);
     }
 }
