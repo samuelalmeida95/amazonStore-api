@@ -23,4 +23,12 @@ public class UserService {
         Optional<User> usuarioBuscado = userRepository.findById(id);
         return usuarioBuscado.get();
     }
+
+    public User create(User user){
+        return userRepository.save(user);
+    }
+
+    public void delete(Long id) {
+        userRepository.deleteById(id);
+    }
 }
