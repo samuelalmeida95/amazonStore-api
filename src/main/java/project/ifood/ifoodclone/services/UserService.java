@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import project.ifood.ifoodclone.models.User;
 import project.ifood.ifoodclone.repository.UserRepository;
+import project.ifood.ifoodclone.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class UserService {
@@ -21,7 +22,7 @@ public class UserService {
 
     public User findById(Long id){
         Optional<User> usuarioBuscado = userRepository.findById(id);
-        return usuarioBuscado.get();
+        return usuarioBuscado.orElseThrow(() -> new ResourceNotFoundException(id));
     }
 
     public User create(User user){
