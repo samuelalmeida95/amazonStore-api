@@ -136,7 +136,6 @@ https://amazonstore-api.herokuapp.com
 
 ![Domain Instance](https://user-images.githubusercontent.com/19534807/82755481-280a8280-9daa-11ea-9be0-44ce2affc36b.png)
 
-## 
 
 ## 📝 <i>Licença</i>
 
