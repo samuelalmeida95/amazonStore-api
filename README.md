@@ -127,13 +127,22 @@ https://amazonstore-api.herokuapp.com
  ```
 ##
  
-### MODELO DE DOMÍNIO
+### 🎯 MODELO DE DOMÍNIO
 
 ![Domain model](https://user-images.githubusercontent.com/19534807/82755495-3ce71600-9daa-11ea-8641-d01bfcaf1720.png)
 
 ## 
 
-### MODELO DE INSTÂNCIA
+### 🚀  MODELO DE INSTÂNCIA
 
 ![Domain Instance](https://user-images.githubusercontent.com/19534807/82755481-280a8280-9daa-11ea-9be0-44ce2affc36b.png)
 
+## 
+
+<p align="center">Feito com 💚 by Samuel Almeida</p>
+
+<br>
+
+<div align="rigth">
+    <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-<#12EAEA>.svg"/>
+</div>
