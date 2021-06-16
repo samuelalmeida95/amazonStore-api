@@ -141,8 +141,10 @@ https://amazonstore-api.herokuapp.com
 
 <p align="center">Feito com 💚 by Samuel Almeida</p>
 
+## 
+
 <br>
 
-<div align="rigth">
-    <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-<#12EAEA>.svg"/>
+<div align="right">
+    <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-<#12EAEA>.svg" />
 </div>
