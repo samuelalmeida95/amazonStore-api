@@ -31,7 +31,7 @@ public class ResourceExceptionHandler {
 
     @ExceptionHandler(DatabaseException.class)
     public ResponseEntity<StandardError> resourceNotFound(DatabaseException e, HttpServletRequest request) {
-        String error = "Database error!";
+        String error = "Database error! objeto tem associação com outros";
         HttpStatus status = HttpStatus.BAD_REQUEST;
 
         StandardError err = new StandardError(Instant.now(), 
