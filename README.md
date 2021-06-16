@@ -8,8 +8,7 @@
     <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </div>
 
-<br> 
-
+##
 
 <h3><i>Olá, este é um projeto Web service criado com as tecnologias java, spring boot, JPA em conjunto com banco de dados relacional SQL, a aplicação está disponibilizada no Heroku.</i></h3>
 
@@ -139,6 +138,12 @@ https://amazonstore-api.herokuapp.com
 
 ## 
 
+## 📝 <i>Licença</i>
+
+Esse projeto está sob a licença MIT.  Veja o arquivo <a href="https://github.com/samuelalmeida95/amazonStore-api/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+
+##
+
 <p align="center">Feito com 💚 by Samuel Almeida</p>
 
 ## 
@@ -146,5 +151,6 @@ https://amazonstore-api.herokuapp.com
 <br>
 
 <div align="right">
-    <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-<#12EAEA>.svg" />
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
+    <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-<#12EAEA>.svg" align="left"/>
 </div>
