@@ -3,6 +3,8 @@ package project.ifood.ifoodclone.services;
 import java.util.List;
 import java.util.Optional;
 
+import javax.persistence.EntityNotFoundException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -43,8 +45,12 @@ public class UserService {
     }
 
     public User update(Long id, User userUpdate) {
-        User usuarioParaAtualizar = findById(id);
-        return updateData(usuarioParaAtualizar, userUpdate);
+        try{
+            User usuarioParaAtualizar = findById(id);
+            return updateData(usuarioParaAtualizar, userUpdate);
+        }catch(EntityNotFoundException e) {
+            throw new ResourceNotFoundException(id);
+        }       
     }
 
     private User updateData(User usuarioParaAtualizar, User novoUsuario) {
