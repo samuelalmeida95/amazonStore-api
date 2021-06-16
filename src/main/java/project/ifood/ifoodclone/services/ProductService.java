@@ -23,4 +23,8 @@ public class ProductService {
         Optional<Product> produtoBuscado = productRepository.findById(id);
         return produtoBuscado.get();
     }
+
+    public Product create(Product product) {
+        return productRepository.save(product);
+    }
 }
