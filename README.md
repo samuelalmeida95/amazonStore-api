@@ -36,14 +36,14 @@ https://amazonstore-api.herokuapp.com
  <br>
  **[DELETE]** https://amazonstore-api.herokuapp.com/users/id
 
-   ```
-   {
+   ```json
+{
      "id": 1,
      "email": "Maria Brown",
      "nome": "maria@gmail.com",
      "phone": "988888888",
      "password": "123456"
-   }
+}
    ``` 
    
 ### 🎁 <i>Product:</i>
@@ -52,17 +52,20 @@ https://amazonstore-api.herokuapp.com
  <br>
  **[GET]**    https://amazonstore-api.herokuapp.com/products/id
 
-``` {
-      "id": 1,
-      "name": "The Lord of the Rings",
-      "description": "Lorem ipsum dolor sit amet, consectetur.",
-      "price": 90.5,
-      "imgUrl": "",
-      "categorias": [
-         {
-            "id": 2,
-            "name": "Books"
-         }
+```json
+{
+  "id": 1,
+  "name": "The Lord of the Rings",
+  "description": "Lorem ipsum dolor sit amet, consectetur.",
+  "price": 90.5,
+  "imgUrl": "",
+  "categorias": [
+     {
+       "id": 2,
+       "name": "Books"
+     }
+   ]
+} 
  ```
 
 ### 📌 <i>Category:</i>
@@ -71,19 +74,11 @@ https://amazonstore-api.herokuapp.com
  <br>
  **[GET]**    https://amazonstore-api.herokuapp.com/categories/id
 
-```
+```json
    {
-      "id": 1,
-      "name": "Electronics"
-   },
-   {
-      "id": 2,
-      "name": "Books"
-   },
-   {
-      "id": 3,
-      "name": "Computers"
-   }
+     "id": 1,
+     "name": "Electronics"
+    }
 ```
 
 ### 🛒 <i>Order:</i>
@@ -92,37 +87,37 @@ https://amazonstore-api.herokuapp.com
  <br>
  **[GET]**    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/orders/id
 
-```
+```json
  {
-      "id": 1,
-      "moment": "2019-06-20T19:53:07Z",
-      "orderStatus": "PAID",
-      "client": {
-         "id": 2,
-         "email": "Alex Green",
-         "nome": "alex@gmail.com",
-         "phone": "977777777",
-         "password": "123456"
-      },
-      "items": [
-         {
-            "quantity": 2,
-            "price": 90.5,
-            "product": {
-               "id": 1,
-               "name": "The Lord of the Rings",
-               "description": "Lorem ipsum dolor sit amet, consectetur.",
-               "price": 90.5,
-               "imgUrl": "",
-               "categorias": [
-                  {
-                     "id": 2,
-                     "name": "Books"
-                  }
-               ]
-            },
-            "subTotal": 181.0
-         }
+  "id": 1,
+  "moment": "2019-06-20T19:53:07Z",
+  "orderStatus": "PAID",
+  "client": {
+     "id": 2,
+     "email": "Alex Green",
+     "nome": "alex@gmail.com",
+     "phone": "977777777",
+     "password": "123456"
+  },
+  "items": [
+     {
+        "quantity": 2,
+        "price": 90.5,
+        "product": {
+           "id": 1,
+           "name": "The Lord of the Rings",
+           "description": "Lorem ipsum dolor sit amet, consectetur.",
+           "price": 90.5,
+           "imgUrl": "",
+           "categorias": [
+              {
+                 "id": 2,
+                 "name": "Books"
+              }
+           ]
+        },
+        "subTotal": 181.0
+     }
  ```
 ##
  
