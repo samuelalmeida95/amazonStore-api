@@ -121,13 +121,13 @@ https://amazonstore-api.herokuapp.com
  ```
 ##
  
-### 🎯 MODELO DE DOMÍNIO
+### 🎯 <i>Modelo de domínio</i>
 
 ![Domain model](https://user-images.githubusercontent.com/19534807/82755495-3ce71600-9daa-11ea-8641-d01bfcaf1720.png)
 
 ## 
 
-### 🚀  MODELO DE INSTÂNCIA
+### 🚀  <i>Modelo de instância</i>
 
 ![Domain Instance](https://user-images.githubusercontent.com/19534807/82755481-280a8280-9daa-11ea-9be0-44ce2affc36b.png)
 
