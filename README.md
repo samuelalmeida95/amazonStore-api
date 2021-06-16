@@ -7,12 +7,12 @@
 ## Projero web service com Spring boot, JPA e Banco de dados SQL
 
 Web service criado com as tecnologias java, spring boot, JPA em conjunto com banco de dados relacional SQL,
-a aplicação se encontra deplayada do heroku.
+a aplicação se encontra disponivel do heroku.
 
 
 ## Aplicação disponivel em:
 
-https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/
+https://ifoodclone-api.herokuapp.com/
 
 ## É possível utilizar qualquer ferramenta de requisições HTTP para testar o serviço.
 
@@ -21,34 +21,34 @@ EX: https://reqbin.com/
 ## Serviços disponíveis
 
 ##  USER:
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/users
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/users/id
-#### [POST]   https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/users
+#### [GET]    https://ifoodclone-api.herokuapp.com//users
+#### [GET]    https://ifoodclone-api.herokuapp.com//users/id
+#### [POST]   https://ifoodclone-api.herokuapp.com//users
 	{
 	"name": "Maria sales",
 	"email": "msales@gmail.com",
 	"phone": "9775979797",
 	"password": 123456
 	 }
-#### [PUT]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/users/id
+#### [PUT]    https://ifoodclone-api.herokuapp.com//users/id
 	{
 	"name": "Bob",
 	"email": "bob@gmail.com",
 	"phone": "9775979797"
          }
-#### [DELETE] https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/users/id
+#### [DELETE] https://ifoodclone-api.herokuapp.com/users/id
 
 ## PRODUCT:
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/products
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/products/id
+#### [GET]    https://ifoodclone-api.herokuapp.com//products
+#### [GET]    https://ifoodclone-api.herokuapp.com//products/id
 
 ## CATEGORY:
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/categories
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/categories/id
+#### [GET]    https://ifoodclone-api.herokuapp.com//categories
+#### [GET]    https://ifoodclone-api.herokuapp.com//categories/id
 
 ## ORDER:
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/orders
-#### [GET]    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/orders/id
+#### [GET]    https://ifoodclone-api.herokuapp.com//orders
+#### [GET]    https://ifoodclone-api.herokuapp.com//orders/id
 
 ## MODELO DE DOMÍNIO
 
