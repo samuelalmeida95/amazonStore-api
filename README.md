@@ -37,13 +37,13 @@ https://amazonstore-api.herokuapp.com
  **[DELETE]** https://amazonstore-api.herokuapp.com/users/id
 
    ```json
-{
-     "id": 1,
-     "email": "Maria Brown",
-     "nome": "maria@gmail.com",
-     "phone": "988888888",
-     "password": "123456"
-}
+ {
+      "id": 1,
+      "email": "Maria Brown",
+      "nome": "maria@gmail.com",
+      "phone": "988888888",
+      "password": "123456"
+ }
    ``` 
    
 ### 🎁 <i>Product:</i>
@@ -88,7 +88,7 @@ https://amazonstore-api.herokuapp.com
  **[GET]**    https://andrealvesdc-web-serve-sb-jpa.herokuapp.com/orders/id
 
 ```json
- {
+{
   "id": 1,
   "moment": "2019-06-20T19:53:07Z",
   "orderStatus": "PAID",
@@ -117,7 +117,7 @@ https://amazonstore-api.herokuapp.com
            ]
         },
         "subTotal": 181.0
-     }
+ }
  ```
 ##
  
