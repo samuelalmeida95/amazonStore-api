@@ -1,6 +1,4 @@
-## Em construção 🚧
----
-<!-- # WebServices-SpringBoot-JPA
+# WebServices-SpringBoot-JPA
 
 ![spring-boot](https://user-images.githubusercontent.com/19534807/82755512-54be9a00-9daa-11ea-8e76-5190e0a0074d.png)
 
@@ -14,41 +12,37 @@ a aplicação se encontra disponivel do heroku.
 
 https://ifoodclone-api.herokuapp.com/
 
-## É possível utilizar qualquer ferramenta de requisições HTTP para testar o serviço.
-
-EX: https://reqbin.com/
-
 ## Serviços disponíveis
 
 ##  USER:
-#### [GET]    https://ifoodclone-api.herokuapp.com//users
-#### [GET]    https://ifoodclone-api.herokuapp.com//users/id
-#### [POST]   https://ifoodclone-api.herokuapp.com//users
+#### [GET]    https://ifoodclone-api.herokuapp.com/users
+#### [GET]    https://ifoodclone-api.herokuapp.com/users/id
+#### [POST]   https://ifoodclone-api.herokuapp.com/users
 	{
-	"name": "Maria sales",
-	"email": "msales@gmail.com",
-	"phone": "9775979797",
-	"password": 123456
+	  "name": "Maria sales",
+	  "email": "msales@gmail.com",
+	  "phone": "9775979797",
+	  "password": 123456
 	 }
-#### [PUT]    https://ifoodclone-api.herokuapp.com//users/id
+#### [PUT]    https://ifoodclone-api.herokuapp.com/users/id
 	{
-	"name": "Bob",
-	"email": "bob@gmail.com",
-	"phone": "9775979797"
+	  "name": "Bob",
+	  "email": "bob@gmail.com",
+	  "phone": "9775979797"
          }
 #### [DELETE] https://ifoodclone-api.herokuapp.com/users/id
 
 ## PRODUCT:
-#### [GET]    https://ifoodclone-api.herokuapp.com//products
-#### [GET]    https://ifoodclone-api.herokuapp.com//products/id
+#### [GET]    https://ifoodclone-api.herokuapp.com/products
+#### [GET]    https://ifoodclone-api.herokuapp.com/products/id
 
 ## CATEGORY:
-#### [GET]    https://ifoodclone-api.herokuapp.com//categories
-#### [GET]    https://ifoodclone-api.herokuapp.com//categories/id
+#### [GET]    https://ifoodclone-api.herokuapp.com/categories
+#### [GET]    https://ifoodclone-api.herokuapp.com/categories/id
 
 ## ORDER:
-#### [GET]    https://ifoodclone-api.herokuapp.com//orders
-#### [GET]    https://ifoodclone-api.herokuapp.com//orders/id
+#### [GET]    https://ifoodclone-api.herokuapp.com/orders
+#### [GET]    https://ifoodclone-api.herokuapp.com/orders/id
 
 ## MODELO DE DOMÍNIO
 
@@ -57,4 +51,4 @@ EX: https://reqbin.com/
 ## MODELO DE INSTÂNCIA
 
 ![Domain Instance](https://user-images.githubusercontent.com/19534807/82755481-280a8280-9daa-11ea-9be0-44ce2affc36b.png)
- -->
+
