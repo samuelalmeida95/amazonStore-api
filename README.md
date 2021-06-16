@@ -15,8 +15,8 @@ https://ifoodclone-api.herokuapp.com/
 ## Serviços disponíveis
 
 ##  USER:
-#### [GET]    https://ifoodclone-api.herokuapp.com//users
-#### [GET]    https://ifoodclone-api.herokuapp.com//users/id
+#### [GET]    https://ifoodclone-api.herokuapp.com/users
+#### [GET]    https://ifoodclone-api.herokuapp.com/users/id
 #### [POST]   https://ifoodclone-api.herokuapp.com/users
 	{
 	  "name": "Maria sales",
