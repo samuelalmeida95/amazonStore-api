@@ -23,4 +23,8 @@ public class CategoryService {
         Optional<Category> categoriaBuscada = categoryRepository.findById(id);
         return categoriaBuscada.get();
     }
+
+    public Category create(Category category) {
+        return categoryRepository.save(category);
+    }
 }
