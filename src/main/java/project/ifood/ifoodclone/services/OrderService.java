@@ -23,4 +23,8 @@ public class OrderService {
         Optional<Order> usuarioBuscado = orderRepository.findById(id);
         return usuarioBuscado.get();
     }
+
+    public Order create(Order order) {
+        return orderRepository.save(order);
+    }
 }
